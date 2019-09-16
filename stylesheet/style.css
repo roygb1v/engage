@@ -89,7 +89,8 @@ p {
 
 .top-onsite {
   position: relative;
-  top: 20%;
+  /* top: 20%; */
+  top: 150px;
   left: 15%;
 }
 
@@ -125,7 +126,22 @@ span {
 
 .home-study {
   position: relative;
-  top: 30%;
+  top: 200px;
   left: 15%;
+  width: 1700px;
 }
 
+.home-block {
+  width: 370px;
+  height: 200px;
+  margin-right: 50px;
+  display: inline-block;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.home-caption {
+  position: relative;
+  text-align: center;
+  top: 10%;
+}
