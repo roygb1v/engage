@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+.shadow {
+  -moz-box-shadow:    1px 1px 3px 4px #ccc;
+  -webkit-box-shadow: 1px 1px 3px 4px #ccc;
+  box-shadow:         1px 1px 1.5px 1.5px #ccc;
+}
+
+.nav {
+  margin: 10px 10px;
+}
+
+#border {
+  border-bottom: 1px solid lightgray;
+  margin-top: 20px;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  background-color: lightblue;
+  border-radius: 100%;
+  vertical-align: top;
+  margin-right: 20px;
+}
+
+.logo, form {
+  display: inline-block;
+}
+
+input {
+  border-radius: 4px;
+  border: none;
+  font-size: 25px;
+  width: 400px;
+  height: 50px;
+  padding: 0px 25px;
+}
+
+nav {
+  float: right;
+  margin: 20px 10px;
+}
+
+a, li {
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 15px;
+  color: gray;
+}
+
+#preferance{
+  position: relative;
+  top: 50px;
+  left: 15%;
+}
+
+.test {
+  display: inline-block;
+  position: relative;
+  top: 20px;
+  height: 70px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+.home {
+  margin-left: 20px;
+}
+
+p {
+  position: absolute;
+  /* text-align: center; */
+  top: 40%;
+  left: 50%;
+  color: black;
+}
+
+.intro {
+  position: relative;
+  color: #303030;
+  margin: 20px 0;
+}
+
+.top-onsite {
+  position: relative;
+  top: 20%;
+  left: 15%;
+}
+
+#first, #second, #third {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+img {
+  width: 550px;
+  height: 350px;
+  border-radius: 10px;
+}
+
+span {
+  display: block;
+  margin-top: 5px;
+}
+
+.place {
+  font-size: 16px;
+  color: darkgreen;
+}
+
+.desc {
+  color: #303030;
+  font-size: 20px;
+}
+
+.price {
+  color: #03A89E;
+}
+
+.home-study {
+  position: relative;
+  top: 30%;
+  left: 15%;
+}
+
